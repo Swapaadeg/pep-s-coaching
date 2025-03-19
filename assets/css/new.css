@@ -79,7 +79,7 @@ li {
 .btn-primary {
     background-color: #FF4676;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 24px;
     border-radius: 5px;
     border: solid 1px #FF4676;
 }
@@ -87,6 +87,7 @@ li {
 .btn-primary:hover {
     background-color: white;
     color: #FF4676;
+    transition: all 0.2s ease-in;
 }
 
 /*APPROCHE*/
@@ -109,3 +110,27 @@ li {
     text-align: left;
 }
 
+/* METHODE */
+
+.methode {
+    text-align: center;
+    align-items: center;
+}
+
+.methode p {
+    padding-bottom: 1rem;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #FF4676;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: solid 1px #FF4676;
+}
+
+.btn-secondary:hover {
+    background-color:#FF4676 ;
+    color: white;
+    transition: all 0.2s ease-in;
+}
