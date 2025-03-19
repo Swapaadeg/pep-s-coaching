@@ -96,7 +96,6 @@ ul {
 .concept {
     margin-top: 2rem;
     text-align: center;
-    width: 100%;
 }
 
 .approche__wrapper {
@@ -145,17 +144,65 @@ ul {
 
 .frame__wrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 10rem;
     margin-top: 4rem;
 
 }
 
-.plaisir-pouvoir {
+.plaisir-potentiels {
     width: 21%;
 }
 
-.potentiels-sens {
+.pouvoir-sens {
     width: 21%;
 }
+
+/* DEBUT ACCOMPAGNEMENTS */
+
+.accompagnements {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.accompagnements h2 {
+    margin-bottom: 2rem;
+}
+
+.peps__wrapper li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.peps__wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.peps__wrapper .btn-secondary {
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.peps__wrapper h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px; 
+}
+
+.peps__wrapper .talent h3::after {
+    background-color: #68D8EE;
+}
+
+.peps__wrapper .carriere h3::after {
+    background-color: #FFE17A;
+}
+
+.peps__wrapper .force h3::after {
+    background-color: #DB7CF2;
+}
+
