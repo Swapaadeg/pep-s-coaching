@@ -335,6 +335,7 @@ ul {
     list-style: none;
     justify-content: center;
     gap: 2rem;
+    position: relative;
 }
 .footer-menu :not(:last-child) {
     border-right: solid 2px;
@@ -343,4 +344,9 @@ ul {
 .footer-menu li a {
     text-transform: none;
     margin-right: 2rem;
+}
+
+.contact__wrapper img {
+    position: absolute;
+    transform: translate(330%);
 }
