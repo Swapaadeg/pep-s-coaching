@@ -255,8 +255,7 @@ ul {
 }
 
 .blog__wrapper {
-    padding: 1rem;
-    
+    padding: 1rem; 
 }
 
 .blog__wrapper .pouvoirs {
@@ -297,5 +296,51 @@ ul {
     padding: 1rem;
     max-width: 90%;
     border-bottom: #68D8EE solid 2px ;
+    margin-bottom: 2rem;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #E2E2E2;
+}
+.contact__wrapper {
+    display: flex;
+    justify-content: space-around
+    gap: 2rem;
+}
+
+.contact__wrapper .content {
+    display: inline;
+    border-left: solid 2px black; 
+    max-width: 33%
+}
+.contact__wrapper .content .title {
+    text-transform: uppercase;
+}
+
+.contact__wrapper .title {
+    margin-left: 2rem;
+}
+
+.contact__wrapper p {
+    margin-left: 2rem;
+}
+
+/* nav footer */
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer-menu :not(:last-child) {
+    border-right: solid 2px;
+}
+
+.footer-menu li a {
+    text-transform: none;
+    margin-right: 2rem;
+}
