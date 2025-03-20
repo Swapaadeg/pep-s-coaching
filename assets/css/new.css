@@ -3,7 +3,9 @@
     font-family: "Roboto" ;
     src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
 }
-
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto";
     margin: 0;
@@ -12,7 +14,7 @@ body {
 h1 {
     font-size: 64px;
     text-transform: uppercase;
-    max-width: 800px;
+    max-width: 40%;
 }
 
 h2 {
@@ -23,7 +25,7 @@ h2 {
 h3 {
     font-size: 24px;
     text-transform: uppercase;
-    position: relative;
+
 }
 
 a {
@@ -40,7 +42,7 @@ a {
 }
 
 .ligne {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 ul {
@@ -160,7 +162,7 @@ ul {
     width: 21%;
 }
 
-/* DEBUT ACCOMPAGNEMENTS */
+/* ACCOMPAGNEMENTS */
 
 .accompagnements {
     margin-top: 4rem;
@@ -169,6 +171,10 @@ ul {
 
 .accompagnements h2 {
     margin-bottom: 2rem;
+}
+
+.accompagnements h3 {
+    position: relative;
 }
 
 .peps__wrapper li {
@@ -211,5 +217,85 @@ ul {
 
 .peps__wrapper .force h3::after {
     background-color: #DB7CF2;
+}
+
+/* Card Avis */
+
+.avis {
+    text-align: center;
+}
+
+.avis__wrapper {
+    display: flex;
+    gap: 6rem;
+    position: relative;    
+}
+
+.comm {
+    border: solid 2px #68D8EE;
+    padding: 1.5rem;
+    padding-top: 4rem;
+    width: 25%;
+}
+
+.comm img {
+    position: absolute;
+    top: -2px;
+    transform: translate(-50%);
+}
+
+.comm .title {
+    font-size: 14px;
+}
+
+/* Blog */
+
+.blog {
+    text-align: center;
+}
+
+.blog__wrapper {
+    padding: 1rem;
+    
+}
+
+.blog__wrapper .pouvoirs {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 1rem;
+    border-bottom: #68D8EE solid 2px ;
+    max-width: 90%;
+}
+
+.blog__wrapper .content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.blog__wrapper .btn-secondary {
+    width: 20%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.blog__wrapper h3 {
+    margin: 0;
+}
+
+.blog__wrapper img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.blog__wrapper .entreprise {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 1rem;
+    max-width: 90%;
+    border-bottom: #68D8EE solid 2px ;
 }
 
