@@ -188,13 +188,16 @@ ul {
     display: flex;
     justify-content: center;
     gap: 5%;
+}
+
+.card {
     position: relative;
 }
 
 .peps__wrapper .btn-secondary {
     position: absolute;
-    bottom: 0%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
+    bottom: -20%;
 }
 
 .peps__wrapper h3::after {
@@ -230,7 +233,6 @@ ul {
 .avis__wrapper {
     display: flex;
     gap: 6rem;
-    position: relative;    
 }
 
 .comm {
@@ -238,6 +240,7 @@ ul {
     padding: 1.5rem;
     padding-top: 4rem;
     width: 25%;
+    position: relative;    
 }
 
 .comm img {
@@ -379,10 +382,11 @@ ul {
     h3 {
         font-size: 12px;
     }
-
-    .hero {
-        background-position: left;
+    
+    .approche__wrapper img {
+        width: 100%;
     }
+    
     .approche__wrapper {
         flex-direction: column;
     }
@@ -398,6 +402,7 @@ ul {
     .peps__wrapper {
         flex-direction: column;
         width: 50%;
+        gap: 4rem;
     }
 
     .avis__wrapper {
