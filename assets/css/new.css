@@ -27,7 +27,6 @@ h2 {
 h3 {
     font-size: 24px;
     text-transform: uppercase;
-
 }
 
 a {
@@ -168,7 +167,6 @@ ul {
 .accompagnements {
     margin-top: 4rem;
     text-align: center;
-
 }
 
 .accompagnements h2 {
@@ -262,17 +260,17 @@ ul {
     text-align: center;
 }
 
-.blog__wrapper {
-    padding: 1rem; 
-}
-
-.blog__wrapper .pouvoirs {
+.blog__wrapper .article {
     display: flex;
     align-items: center;
     gap: 60px;
     padding: 1rem;
     border-bottom: #68D8EE solid 2px ;
     max-width: 90%;
+}
+
+.blog__wrapper .entreprise {
+    margin-bottom: 2rem;
 }
 
 .blog__wrapper .content {
@@ -297,15 +295,6 @@ ul {
     object-fit: cover;
 }
 
-.blog__wrapper .entreprise {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    padding: 1rem;
-    max-width: 90%;
-    border-bottom: #68D8EE solid 2px ;
-    margin-bottom: 2rem;
-}
 
 /* Footer */
 
@@ -339,12 +328,12 @@ ul {
 /* nav footer */
 
 .footer-menu {
+    position: relative;
     display: flex;
     align-items: center;
-    list-style: none;
     justify-content: center;
     gap: 2rem;
-    position: relative;
+    list-style: none;
 }
 .footer-menu :not(:last-child) {
     border-right: solid 2px;
@@ -414,15 +403,14 @@ ul {
         width: 100%;
     }
 
+    .comm img {
+        top: -6%;
+    }
     .avis h2 {
         margin-bottom: 20%;
     }
 
-    .blog__wrapper .pouvoirs{
-        flex-direction: column;
-    }
-
-    .blog__wrapper .entreprise {
+    .blog__wrapper .article {
         flex-direction: column;
     }
 
@@ -446,5 +434,4 @@ ul {
     .footer-menu :not(:last-child) {
         border-right: none;
     }
-
 }
